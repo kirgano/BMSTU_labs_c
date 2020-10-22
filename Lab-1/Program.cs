@@ -18,8 +18,8 @@ namespace Lab_1_биквадратное_уравнение
             {
                 bool b;
                 string s;
-                //count = count + 1;
                 char[] alph={'A','B','C'};
+                //count = count + 1;
                 b = double.TryParse(args[count], out c);
                 
 
@@ -115,7 +115,6 @@ namespace Lab_1_биквадратное_уравнение
                     d = Math.Sqrt(D);
                     t1 = (-B + d) / (2*A);
                     t2 = (-B - d) / (2*A);
-
                     if (t1 > 0)
                     {
                         x1 = Math.Sqrt(t1);
